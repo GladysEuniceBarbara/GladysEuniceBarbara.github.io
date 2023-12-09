@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <header style="background-color: #47156C; display: flex; flex-direction: row; justify-content: left; padding-inline: 1rem; padding-block: 0.5rem;">
+            <div style="display: flex; align-items: center; color: aliceblue;">
+                <img src="del.png" alt="del.png" style="width: 69px;">
+                <p style=" text-align: left; width: 20rem; "><b>Institut Teknologi Del</b><br>Martuhan, Marroha, Marbisuk</p>
+        </div>
+            </div>
+        </header>
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style1.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-2 d-none d-md-block sidebar">
+              <div class="sidebar-sticky">
+                  <ul class="nav flex-column">
+                      <li class="nav-item">
+                          <a class="nav-link active" href="admin.html">
+                              <i class="fas fa-chart-bar"></i> Dashboard
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="pengumumanadmin.html">
+                              <i class="fas fa-bullhorn"></i> Pengumuman
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="adminprogrampendidikan.html">
+                              <i class="fas fa-graduation-cap"></i> Program Pendidikan
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="adminlembaga.html">
+                              <i class="fas fa-university"></i> Lembaga
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="adminfasilitas.html">
+                              <i class="fas fa-building"></i> Fasilitas
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
+            <!-- Content -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+
+                </div>
+
+                <!-- Dashboard Content -->
+                <div class="dashboard-content">
+                    <table class="table caption-top">
+                        <!-- <caption>List of Contents</caption> -->
+                        <h2>Fasilitas</h2>
+                        <div>
+                                <a href="" class="btn btn-primary">Tambah Informasi</a>
+                            </div>
+                        
+                            <!-- Link ke Bootstrap JS -->
+                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                        </div>
+                        <thead>
+                          <tr>
+                            <th scope="col">No.</th>
+                            <th scope="col">Fasilitas</th>
+                            <th scope="col">Deskripsi</th>
+                            <th scope="col">Gambar</th>
+                            <th scope="col">Aksi</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Laboratorium Komputer dan Bahasa.</td>
+                            <td>Laboratorium Komputasi adalah ruangan yang dilabeli sebagai laboratorium komputasi yang berisi sekumpulan perangkat yang terdiri atas Komputer Desktop, Laptop, AC, projector, printer, dan perangkat lain sesuai dengan kebutuhan dari laboratorium yang dimaksud.[...]</td>
+                            <td>
+                                    <img src="laboratorium.jpg" alt="" style="width: 100%;">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="d-flex gap-2 mb-3">
+                                    <button type="button" class="btn btn-warning">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                      </svg>
+                                    </button>
+    
+                                    <button type="button" class="btn btn-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                        </svg>
+
+                                      </button>
+    
+                                    </div>
+    
+                                    
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Akomodasi</td>
+                            <td>Institut Teknologi Del (IT Del) menyediakan fasilitas perumahan untuk dosen dan staf penunjang di lingkungan kampus.[...]
+
+                            </td>
+                            <td>
+                                <div style="width: 200px; height: 200px; display: flex; align-items: center;">
+                                    <img src="akomodasi.jpeg" alt="" style="width: 100%;">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="d-flex gap-2 mb-3">
+                                    <button type="button" class="btn btn-warning">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                      </svg>
+                                    </button>
+    
+                                    <button type="button" class="btn btn-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                        </svg>
+
+                                      </button>
+    
+                                    </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Kantin</td>
+                            <td>Kantin Politeknik Informatika Del menyediakan menu makanan yang bergizi dan sehat untuk semua mahasiswa/i. Menu yang disediakan selalu memenuhi standard gizi, sehingga mahasiswa bisa melaksanakan aktifitas perkuliahan dengan sehat dan prima. Setiap mahasiswa diwajibkan untuk makan di kantin tiga kali setiap harinya.[...]</td>
+                            <td>
+                                <div style="width: 200px; height: 200px; display: flex; align-items: center;">
+                                    <img src="kantin.jpg" alt="" style="width: 100%;">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="d-flex gap-2 mb-3">
+                                    <button type="button" class="btn btn-warning">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                      </svg>
+                                    </button>
+    
+                                    <button type="button" class="btn btn-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                                        </svg>
+                                  </button>
+
+                                </div>
+                        </td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>Perpustakaan</td>
+                        <td>Perpustakaan Politeknik Informatika Del (PI Del) berdiri sejak tanggal 9 Januari 2002 dengan sistem pelayanan open acces (terbuka). Selanjutnya berubah nama seiring dengan berubahnya status Politeknik menjadi Institut sejak tahun 2013. Perpustakaan berganti nama menjadi Perpustakaan Institut Teknologi Del.[...]</td>
+                        <td>
+                            <div style="width: 200px; height: 200px;display: flex; align-items: center;">
+                                <img src="perpustakaan.jpg" alt="" style="width: 100%;">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="d-flex gap-2 mb-3">
+                                <button type="button" class="btn btn-warning">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                    <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                    <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                  </svg>
+                                </button>
+    
+                                <button type="button" class="btn btn-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                      <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                      <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                                    </svg>
+                              </button>
+    
+                            </div>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    
+                  </tr> <tr>
+                    <th scope="row">5</th>
+                    <td>Hiburan dan Olahraga</td>
+                    <td>Selain fasilitas untuk keperluan proses belajar mengajar, IT Del juga menyediakan sarana hiburan dan olahraga bagi warga kampus IT Del.[...]</td>
+                    <td>
+                        <div style="width: 200px; height: 200px;display: flex; align-items: center;">
+                            <img src="olahraga.jpg" alt="" style="width: 100%;">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="d-flex gap-2 mb-3">
+                            <button type="button" class="btn btn-warning">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+              </svg>
+                            </button>
+
+                            <button type="button" class="btn btn-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                  <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                  <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                                </svg>
+                          </button>
+
+                        </div>
+                </td>
+                
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td>Ruang Terbuka</td>
+                <td>Kampus Del bisa difungsikan sebagai Ruang Terbuka Hijau (RTH). Luas IT Del sekitar 12 hektar dan 60% ruang terbuka hijau. IT Del terbagi dalam tiga area yaitu Open Theater (OT), Asrama, dan Entrance Hall (EH). Selain itu, IT Del terbentang luas pemandangan Danau Toba di area belakang kampus. Fasilitas ruang terbuka sering digunakan oleh mahasiswa di lokasi OT dan EH untuk kerja kelompok, belajar individu, dan bersantai.[...]</td>
+                <td>
+                    <div style="width: 200px; height: 200px;display: flex; align-items: center;">
+                        <img src="ot.jpeg" alt="" style="width: 100%;">
+                    </div>
+                </td>
+                <td>
+                    <div class="d-flex gap-2 mb-3">
+                        <button type="button" class="btn btn-warning">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+            <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+            <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+          </svg>
+                        </button>
+
+                        <button type="button" class="btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+              <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+              <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                            </svg>
+                      </button>
+
+                    </div>
+            </td>
+            
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Klinik</td>
+            <td>Praktek umum dokter Del resmi didirikan pada bulan Mei tahun 2009, terletak disamping pintu masuk ke area kampus Institut Teknologi Del. Tujuan didirikan praktek umum ini yang terutama adalah untuk melayani siswa, mahasiswa, pegawai Del tetapi selain itu juga untuk melayani masyarakat disekitar lingkungan kampus.[...]</td>
+            <td>
+                <div style="width: 200px; height: 200px; display: flex; align-items: center;">
+                    <img src="klinik.jpg" alt="" style="width: 100%;">
+                </div>
+            </td>
+            <td>
+                <div class="d-flex gap-2 mb-3">
+                    <button type="button" class="btn btn-warning">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+      </svg>
+                    </button>
+
+                    <button type="button" class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                        </svg>
+                  </button>
+
+                </div>
+        </td>
+        
+      </tr>
+
+                      <tr>
+                                      </button>
+    
+                                </div>
+                            </td>
+                        </tr>
+                </div>
+
+        
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* Your existing styles can go here, if any */
+
+.dashboard-content,
+.pengumuman-content,
+.program-pendidikan-content,
+.lembaga-content,
+.fasilitas-content {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.sidebar{
+    background-color: #47156C;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #2079CC;
+}

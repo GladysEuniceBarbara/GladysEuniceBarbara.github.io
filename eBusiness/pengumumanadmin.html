@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <header style="background-color: #47156C; display: flex; flex-direction: row; justify-content: left; padding-inline: 1rem; padding-block: 0.5rem;">
+		<div style="display: flex; align-items: center; color: aliceblue;">
+			<img src="del.png" alt="del.png" style="width: 69px;">
+			<p style=" text-align: left; width: 20rem; "><b>Institut Teknologi Del</b><br>Martuhan, Marroha, Marbisuk</p>
+    </div>
+		</div>
+	</header>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style1.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-2 d-none d-md-block sidebar">
+              <div class="sidebar-sticky" style="margin-top: 0.5rem;">
+                  <ul class="nav flex-column">
+                      <li class="nav-item">
+                          <a class="nav-link active" href="admin.html">
+                              <i class="fas fa-chart-bar"></i> Dashboard
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="pengumuman.html">
+                              <i class="fas fa-bullhorn"></i> Pengumuman
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="adminprogrampendidikan.html">
+                              <i class="fas fa-graduation-cap"></i> Program Pendidikan
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="adminlembaga.html">
+                              <i class="fas fa-university"></i> Lembaga
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="adminfasilitas.html">
+                              <i class="fas fa-building"></i> Fasilitas
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </nav>
+          
+
+            <!-- Content -->
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+
+                </div>
+
+                <!-- Dashboard Content -->
+                <div class="dashboard-content">
+                    <table class="table caption-top">
+                        <h2>Pengumuman</h2>
+                        <!-- <caption>List of Contents</caption> -->
+                        <body>
+                                <a href="indexadmin.php?halaman=tambahproduk" class="btn btn-primary">Tambah Informasi</a>
+                            </div>
+                        
+                            <!-- Link ke Bootstrap JS -->
+                            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                        </body>
+                        <thead>
+                          <tr>
+                            <th scope="col">No.</th>
+                            <th scope="col">Judul</th>
+                            <th scope="col">Deskripsi</th>
+                            <th scope="col">Gambar</th>
+                            <th scope="col">Aksi</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Wisuda 398 Lulusan Institut Teknologi Del</td>
+                            <td>Pada Hari Sabtu 23 September 2023, Institut Teknologi Del melaksanakan Wisuda untuk 398 Mahasiswa Sarjana dan Diploma. 
+                                Turut hadir Bapak Dr. Honoris Causa Ir. Airlangga Hartarto, MBA, MMT (Menteri Koordinator Bidang Perekonomian Republik Indonesia), 
+                                Bapak Rionald Silaban (Direktorat Jendral Kekayaan Negara),  Bapak Jend. TNI (Purn.) Luhut Binsar Pandjaitan, M.P.A (Ketua Pembina Yayasan Del), 
+                                Ibu Intan Simanjuntak (Ketua Pengurus Yayasan Del), dan tamu undangan lainnya. Kegiatan Wisuda ini dilaksanakan di Gedung Serba Guna Yayasan Del dengan tema 
+                                “Fostering Collaboration and Innovation towards Research Excellence”.[...]</td>
+                            <td>
+                                <div style="width: 200px; height: 200px; background-color: black; display: flex; align-items: center;">
+                                    <img src="pengumuman1.jpg" alt="" style="width: 100%;">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="d-flex gap-2 mb-3">
+                                    <button type="button" class="btn btn-warning">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                      </svg>
+                                    </button>
+    
+                                    <button type="button" class="btn btn-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                        </svg>
+
+                                      </button>
+    
+                                    </div>
+    
+                                    
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Pengukuhan 483 Mahasiswa IT Del Angkatan XXIII dan Dies Natalis ke XXII</td>
+                            <td>Sitoluama, 22 September 2023 Institut Teknologi Del menyelenggarakan Acara Pengukuhan Mahasiswa Baru Angkatan XXIII dan Dies Natalis ke XXII. Kegiatan ini dihadiri oleh Ketua Pembina Yayasan Del, Bapak Luhut Binsar Pandjaitan dan Ibu Devi Pandjaitan, Ketua Pengurus Yayasan Del, Ibu Intan Simanjuntak, Rektor IT Del Bapak Dr. Arnaldo Marulitua Sinaga, S.T., M.InfoTech, Senat akademik Prof. Roberd Saragih, Ketua supervisor Habibie Center Ilham Akbar Habibie, Dirjen Kekayaan Negara Rionald Silaban, CEO PT. Privy Marshall Pribadi, Wakil Ketua CNGR Internasional Fu Peiwen, bersama orang tua mahasiswa dan para undangan lainnya. Kegiatan ini dilaksanakan di Gedung Serba Guna Yayasan Del.[...]</td>
+                            <td>
+                                <div style="width: 200px; height: 200px; background-color: black; display: flex; align-items: center;">
+                                    <img src="image4.png" alt="" style="width: 100%;">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="d-flex gap-2 mb-3">
+                                    <button type="button" class="btn btn-warning">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                      </svg>
+                                    </button>
+    
+                                    <button type="button" class="btn btn-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                        </svg>
+
+                                      </button>
+    
+                                    </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Job Fair Institut Teknologi Del di Pekan Raya Sumatera Utara (PRSU) 2023</td>
+                            <td>Horas Warga Sumatera Utara!!!
+
+                                Dinas Ketenagakerjaan Provinsi Sumatera Utara kini bekerja sama dengan beberapa perusahaan dan institut yang menyediakan lowongan pekerjaan. Salah satunya adalah Institut Teknologi Del. Melalui acara JOB FAIR 2023 ini akan menjadi kesempatan baik untuk Anda bertemu dengan kami dari Institut Teknologi Del yang menyediakan berbagai peluang kerja.[...]</td>
+                            <td>
+                                <div style="width: 200px; height: 200px; background-color: black; display: flex; align-items: center;">
+                                    <img src="jobfair.jpeg" alt="" style="width: 100%;">
+                                </div>
+                            </td>
+                            <td>
+                                <div class="d-flex gap-2 mb-3">
+                                    <button type="button" class="btn btn-warning">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z"/>
+                      </svg>
+                                    </button>
+    
+                                    <button type="button" class="btn btn-primary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                                        </svg>
+                                  </button>
+
+                                </div>
+                        </td>
+                      </tr>
+                      <tr>
+                                      </button>
+    
+                                    </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+
+        
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

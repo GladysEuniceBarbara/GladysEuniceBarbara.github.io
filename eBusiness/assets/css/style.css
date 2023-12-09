@@ -1,0 +1,455 @@
+/**
+* Template Name: eBusiness
+* Updated: Sep 18 2023 with Bootstrap v5.3.2
+* Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+.alignleft {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.alignright {
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.aligncenter {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+a:focus {
+  outline: 0px solid;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+p {
+  margin: 0 0 15px;
+  color: #444;
+}
+
+
+
+a {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3EC1D5;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  outline: 0 none;
+}
+
+body {
+  background: #fff none repeat scroll 0 0;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  text-align: left;
+  overflow-x: hidden;
+  line-height: 22px;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #3ec1d5;
+  width: 40px;
+  height: 40px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #60ccdc;
+  color: #fff;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.clear {
+  clear: both;
+}
+
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navbar a i,
+.navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: #3ec1d5;
+}
+
+
+.comments-type>a,
+.date-type,
+.blog-meta span.comments-type {
+  color: #333;
+  letter-spacing: 1px;
+  margin-right: 5px;
+}
+
+.blog-meta .comments-type i {
+  padding-right: 0 !important;
+}
+
+.blog-content-right .comments-type>a,
+.blog-content-right .date-type,
+.blog-content-right .blog-meta span.comments-type,
+.blog-content-right .blog-text p {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.single-blog .ready-btn {
+  border: 1px solid #444;
+  border-radius: 30px;
+  color: #444;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+}
+
+.single-blog .ready-btn:hover {
+  border: 1px solid #3f9edd;
+  color: #fff;
+}
+.ready-btn {
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 30px;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
+  z-index: 222;
+}
+
+.ready-btn:hover {
+  color: #fff;
+  background: #3f9edd;
+  border: 1px solid #3f9edd;
+  text-decoration: none;
+}
+
+.post-img {
+  display: inline-block;
+  float: left;
+  padding: 0 5px;
+  width: 35%;
+}
+/* CSS untuk ukuran Card */
+.card {
+  margin-bottom: 80px;
+}
+
+/* Atur ukuran card menjadi sama */
+.card-body {
+  height: 520px; /* Sesuaikan tinggi card */
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card1 {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.img2 {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FOOTER */
+footer{  
+	background-color: #47156C;   
+	color: white;  
+	text-align: display; 
+} 
+.logo {   
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 80px;
+  margin-left: 5%;
+margin-bottom: -10%;
+}
+
+.logo-text {
+  text-align: left;
+  width: 30rem;
+  color : #fff;
+  margin-left: 2%;
+  margin-bottom: -10%;
+}
+.container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.copy {
+  text-align: display;
+  color: #fff;
+}
+
+.contact-info {
+  color:#fff;
+}
+
+
+/* Fasilitas */
+/* Efek hover pada card */
+.card:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5; /* Ubah warna latar belakang saat hover */
+  transition: background-color 0.3s ease; /* Efek transisi saat perubahan terjadi */
+}
+
+/* Ubah warna teks ketika hover */
+.card:hover h3 {
+  color: #e0c572; /* Misalnya, mengubah warna teks judul */
+}
+/* program pendidikan */
+/* Mengatur teks agar rata kiri */
+p {
+  text-align: left;
+}
+
+/* Button selengkapnya */
+/* Untuk tombol dengan kelas btn-primary */
+.btn-primary {
+  background-color: #3f9edd; /* Warna latar belakang */
+  color: white; /* Warna teks */
+  border: none; /* Menghapus border */
+  padding: 10px 20px; /* Padding untuk menyesuaikan ukuran tombol */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+/* Efek hover saat kursor di atas tombol */
+.btn-primary:hover {
+  background-color: #3f9edd; /* Warna latar belakang saat hover */
+  color: white; /* Warna teks saat hover */
+}
+
+/*  berita spmb */
+/* Mengubah warna teks saat tautan diklik */
+
+
+/* Fasilitas */
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+img {
+  margin: 0 0 20px 0;
+}
+
+
+
+/* Berita Terkini */
+
+.card1:hover {
+  transform: translateY(-5px); /* Menggeser kartu ke atas saat kursor di atasnya */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+.card1 p:hover {
+  color: #e0c572; /* Mengubah warna teks menjadi kuning saat kursor di atasnya */
+}
+
+/* card fasilitas */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  gap: 16px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  padding: 20px;
+  min-height: 35rem;
+  height: 35rem;
+  
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+.card button {
+  margin-top: 10px;
+}
+
+/* Lembaga */
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+.card-body{
+
+}
+/* fasilitas */
+<style>
+  .btn-read-more {
+    background-color: #3f9edd; /* Ubah ke warna biru yang diinginkan */
+    color: white; /* Warna teks di atas tombol */
+    /* Tambahkan gaya lain yang dibutuhkan */
+  }
+</style>
+
+
+
+
+
+
+

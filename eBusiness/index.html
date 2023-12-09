@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Institut Teknologi Del</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="del.png" rel="icon">
+  <link href="del.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center" style="background-color: #47156C;">
+    <div class="container d-flex justify-content-between">
+
+
+
+
+      <nav id="navbar" class="navbar">
+        <div style="display: flex; margin-bottom: 0.8rem;">
+          <img src="del.png" alt="del.png" style="width: 60px;">
+          <p style=" text-align: left; margin-left: 10px; color: white;"><b>Institut Teknologi Del</b><br>Martuhan,
+            Marroha, Marbisuk</p>
+        </div>
+        <ul>
+          <li><a class="nav-link scrollto  active" href="index.html">Dashboard</a></li>
+          <li><a class="nav-link scrollto" href="pengumumanuser.html">Pengumuman</a></li>
+          <li><a class="nav-link scrollto" href="programpendidikan1.html">Program Pendidikan</a></li>
+          <li><a class="nav-link scrollto" href="lembaga.html">Lembaga</a></li>
+          <li><a class="nav-link scrollto" href="fasilitas1.html">Fasilitas</a></li>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+          <div style="width: 100%; justify-content: flex-end; display: flex;margin-right: rem; "><input type="text"
+              style="height: 1.5rem; border-radius:0 ;  " placeholder="Cari. . .">
+            <button style="color: white; background-color: #3f9edd; border: none;">Cari</button>
+          </div>
+      </nav><!-- .navbar -->
+
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <head>
+    <title>Carousel HTML dengan JavaScript</title>
+    <style>
+      .carousel {
+        max-width: 1300px;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        margin-top: -2.45rem;
+      }
+
+      .slides {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+      }
+
+      .slide {
+        min-width: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="carousel">
+      <div class="slides">
+        <div class="slide"><img src="gambar1.jpg" alt="Gambar 1"></div>
+        <div class="slide"><img src="gambar2.jpg" alt="Gambar 2"></div>
+        <div class="slide"><img src="gambar3.jpg" alt="Gambar 3"></div>
+      </div>
+    </div>
+
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelectorAll('.slide');
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        updateSlide();
+      }
+
+      function updateSlide() {
+        const offset = -currentSlide * slides[0].offsetWidth;
+        document.querySelector('.slides').style.transform = `translateX(${offset}px)`;
+      }
+
+      setInterval(nextSlide, 3000); // Ubah gambar setiap 3 detik
+    </script>
+
+  </body>
+
+  <main id="main">
+
+    <!-- ======= Visi Misi ======= -->
+    <div id="about" class="about-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2><strong>Visi dan Misi</strong></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- single-well start-->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="well-left">
+              <div class="single-well">
+                <a href="#">
+                  <img src="gambar3.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- single-well end-->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="well-middle">
+              <div class="single-well">
+                
+                  <h4 class="sec-head">Visi dan Misi</h4>
+                </a>
+                <p>
+                  Visi: Menjadi lembaga pendidikan tinggi yang unggul dan berperan sebagai agen pembaharu dan pelopor
+                  dalam pengembangan dan pemanfaatan teknologi bagi kemajuan dan kesejahteraan bangsa
+                </p>
+                <ul>
+                  <p>
+                    Misi
+                  </p>
+                  <p>1. Menyelenggarakan dan mengembangkan proses pendidikan yang unggul, berkesinambungan, dan
+                    bermanfaat bagi masyarakat</p>
+                  <p>2. Mengembangkan, menciptakan dan menyebarkan ilmu pengetahuan dan teknologi</p>
+                  <p>3.Melaksanakan pembaharuan kemampuan, keterampilan, serta penerapan dan pengembangan rekayasa karya
+                    masyarakat</p>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End col-->
+        </div>
+      </div>
+    </div><!-- End About Section -->
+
+
+    <!-- ======= Team Section ======= -->
+    <div id="team" class="our-team-area area-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <br>
+              <h2><strong>Fakultas</strong></h2>
+
+              <body>
+                <title><strong>Program Pendidikan</strong></title>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h3 class="card-title"><strong>Fakultas FITE</strong></h3>
+                          <p class="card-text">
+                            <img class="img2" src="programpendidikan2.jpg" width="391" height="143">
+                          <p>Saat ini FITE memiliki 3 (tiga) Program Studi sebagai berikut:</p>
+                          <p><a href="">1. Sarjana/Strata 1 (S1) Program Studi Informatika</a></p>
+                          <p><a href="">2. Sarjana/Strata 1 (S1) Sistem Informasi</a></p>
+                          <p><a href="">3. Sarjana/Strata 1 (S1) Teknik Elektro</a></p>
+                          </p>
+                          <button type="button" class="btn btn-primary">Selengkapnya</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h3 class="card-title"><strong>Fakultas Vokasi</strong></h3>
+                          <p class="card-text">
+                            <img class="img2" src="FTI.jpg" width="391" height="143">
+                          <p>Saat ini Vokasi memiliki 3 (tiga) Program Studi sebagai berikut:</p>
+                          <p><a href="">1. D4 (Sarjana Terapan) Teknologi Rekayasa Perangkat Lunak</a></p>
+                          <p><a href="">2. D3 Teknologi Informasi</a></p>
+                          <p><a href="">3. D3 Teknologi Komputer</a></p>
+                          </p>
+                          <button type="button" class="btn btn-primary">Selengkapnya</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h3 class="card-title"><strong>Fakultas FTI</strong></h3>
+                          <img class="img2" src="elektro.jpg" width="391" height="143">
+                          <p class="card-text">
+                          <p>Fakultas Vokasi Institut Teknologi Del memiliki 3 program studi yaitu:</p>
+                          <p><a href="">1. Sarjana/Strata 1 (S1) Program Studi Manajemen Rekayasa</a></p>
+                          <p><a href="">2. Sarjana/Strata 1 (S1) Metalurgi</a></p>
+                          </p>
+                          <button type="button" class="btn btn-primary">Selengkapnya</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <h3 class="card-title"><strong>Fakultas Bioteknologi</strong></h3>
+                          <img class="img2" src="bioteknologi.jpg" width="391" height="143">
+                          <p class="card-text">
+                            Fakultas Boteknologi Institut Teknologi Del memiliki 3 Program Studi sebagai berikut:
+                            <p><a href="">1. Program Sarjana (S1) Teknik Bioproses</a></p>
+                          </p>
+                          <button type="button" class="btn btn-primary">Selengkapnya</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </br>
+                <!-- ======= Berita Terkini ======= -->
+                <main class="main1">
+
+                  <article>
+                    <div class="display">
+                      <h3><strong>Berita Terkini</strong></h3>
+                      <main class="main1">
+                        <div class="grid-container">
+                          <div class="card1">
+                            <img class="img2" src="image.jpg" width="391" height="143">
+                            <p><b>November 13, 2023 / Berita Terkini</b><br>Kegiatan IT Del Menjadi Tuan Rumah 29th IEEE
+                              ICT
+                              Conference</p>
+                          </div>
+
+                          <div class="card1">
+                            <img class="img2" src="image2.jpg" width="391" height="143">
+                            <p><b>November 20, 2023 / Berita Terkini</b><br>Bapak Gibran Rakabuming Raka Beri Kuliah
+                              Umum kepada
+                              Mahasiswa IT Del terkait “Pemimpin Milenial”</p>
+                          </div>
+
+                          <div class="card1">
+                            <img class="img2" src="image3.jpeg" width="391" height="143">
+                            <p><b>November 3, 2023 / Berita Terkini</b><br>IT Del Ikuti Kegiatan KMI EXPO XIV di Bali
+                              Hingga
+                              Terima Penghargaan Pendamping Terbaik</p>
+                          </div>
+                        </div>
+                      </main><!-- End Pricing Section -->
+
+                      <!-- ======= Berita SPMB ======= -->
+                      <div id="blog" class="blog-area">
+                        <div class="blog-inner area-padding">
+                          <div class="blog-overly"></div>
+                          <div class="container ">
+                            <div class="row">
+                              <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="section-headline text-center">
+                                  <br>
+                                  <h2> <strong>Berita SPMB</strong></h2>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <!-- Start Left Blog -->
+                              <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="single-blog">
+                                  <div class="single-blog-img">
+                                    <a href="blog.html">
+                                      <img src="image4.png" alt="">
+                                    </a>
+                                  </div>
+                                  <div class="blog-meta">
+                                    <span class="comments-type">
+                                      <i class="fa fa-comment-o"></i>
+                                    </span>
+                                    <span class="date-type">
+                                      <i class="fa fa-calendar"></i>May 30 2023
+                                    </span>
+                                  </div>
+                                  <div class="blog-text">
+                                    <h4>
+                                      <p>Prosedur Pelaksanaan Tes Akademik Jalur USM3 IT Del Tahun Akademik
+                                        2023/2024</p>
+                                    </h4>
+                                  </div>
+                                  <span>
+                                    <a href="" class="btn btn-primary">Baca Selengkapnya</a>
+                                  </span>
+                                </div>
+                                <!-- Start single blog -->
+                              </div>
+                              <!-- End Left Blog-->
+                              <!-- Start Left Blog -->
+                              <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="single-blog">
+                                  <div class="single-blog-img">
+                                    <a href="">
+                                      <img src="image5.png" alt="">
+                                    </a>
+                                  </div>
+                                  <div class="">
+                                    <span class="comments-type">
+                                      <i class="fa fa-comment-o"></i>
+                                    </span>
+                                    <span class="date-type">
+                                      <i class="fa fa-calendar"></i>February 14 2023
+                                    </span>
+                                  </div>
+                                  <div class="blog-text">
+                                    <h4>
+                                      <p>Informasi PMB Jalur Ujian Saring Masuk 2 (USM 2) 2023 & Jadwal
+                                        Pelaksanaan Kegiatan</p>
+                                    </h4>
+                                  </div>
+                                  <span>
+                                    <a href="" class="btn btn-primary">Baca Selengkapnya</a>
+                                  </span>
+                                </div>
+                                <!-- Start single blog -->
+                              </div>
+                              <!-- End Left Blog-->
+                              <!-- Start Right Blog-->
+                              <div class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="single-blog">
+                                  <div class="single-blog-img">
+                                    <a href="">
+                                      <img src="image6.png" alt="">
+                                    </a>
+                                  </div>
+                                  <div class="blog-meta">
+                                    <span class="comments-type">
+                                      <i class="fa fa-comment-o"></i>
+                                    </span>
+                                    <span class="date-type">
+                                      <i class="fa fa-calendar"></i>May 30 2023
+                                    </span>
+                                  </div>
+                                  <div class="blog-text">
+                                    <h4>
+                                      <p>Prosedur Pelaksanaan Tes Akademik Jalur USM3 IT Del Tahun
+                                        Akademik 2023/2024</p>
+                                    </h4>
+                                  </div>
+                                  <span>
+                                    <a href="" class="btn btn-primary">Baca Selengkapnya</a>
+                                  </span>
+                                  </br>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <br></br>
+
+
+                    </div>
+                  </article>
+                </main>
+
+              </body>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <footer style="min-width: 120%; margin-left: -7rem; ">
+        <div style="margin-left: 5%;" class="logo">
+          <img src="del.png" alt="del.png" class="logo-img">
+          <p class="logo-text"><b>Institut Teknologi Del</b><br>Martuhan, Marroha, Marbisuk</p>
+        </div>
+        <div style="margin-left: 47%;" class="contact">
+          <p class="contact-info">Pos: 22381 <br> Telp: +62 632 331234 <br> Fax: +62 632 331116 <br> Website:
+            http://www.del.ac.id <br> Email: info@del.ac.id <br>Karir: karir@del.ac.id</p>
+        </div>
+        <div>
+          <div class="find-us-on"
+            style="text-align: right; padding-right: 30px; padding-bottom: 20px; float: right; margin-top: -5%; margin-right: 12%;">
+            <h2><b>Find Us On</b></h2>
+            <img src="fb.png" alt="fb" style="width: 30px; display: inline-block; margin-right: 10px;">
+            <img src="twt.png" alt="twt" style="width: 30px; display: inline-block; margin-right: 10px;">
+            <img src="yt.png" alt="yt" style="width: 30px; display: inline-block;">
+          </div>
+        </div>
+
+        <div class="container">
+
+          <p1 class="copy">&copy; 2023 Institut Teknologi Del. All Rights Reserved</p>
+        </div>
+
+      </footer>
+    </div>
+
+  </main>
+
+</body>
+
+</html>

@@ -1,0 +1,320 @@
+nav
+    nav  a{ 
+    padding: 0.5em 2em; 
+    color: #fff; 
+    text-decoration: none; 
+    height: 33px; 
+    }
+    
+    #contenu{
+    border: 2px solid #47156C; 
+    margin: 40px 0 0 0; /* marges haut droite bas gauche */
+    }
+*{ box-sizing: border-box; 
+} 
+ 
+body{  
+	font-family: "verdana";   
+	margin: 0; 
+	min-height: 100vh;   
+	display: flex;   
+	flex-direction: column; 
+	}
+
+header{     
+	text-align: center; 
+	   
+} 
+
+.sidebar-sticky{
+    background-color: #47156C;
+}
+.header2 {
+	background-color: #47156C;
+}
+
+nav  {
+	display: inline-block;
+}
+nav a  {
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+	font-family: "arial";  
+}
+
+nav  a:hover {
+	background-color: #234766;
+	color: #ebe9ec;
+	text-decoration: dashed;
+}
+
+.head1 {
+	display: flex;
+	justify-content: flex-start;
+	align-items: left;
+  }
+  
+  .head1 img {
+	margin-right: 2px; /* Untuk memberi jarak antara gambar dan teks */
+  }
+  
+  .head1 p {
+	text-align: left; /* Untuk mengatur teks ke kiri */
+	margin: 0; /* Menghapus margin bawaan dari paragraf */
+  }
+
+.head2 {
+	padding: 150px; 
+	text-align: center;  
+}
+
+main {
+	flex: 1;
+	display: flex;
+	font-family: "arial"; 
+	color: #234766;
+}
+
+aside {
+	padding: 20px;
+	flex-basis: 200px;
+	flex-shrink: 0;
+}
+
+.first_side {background-color: #f2f2f2;}
+.second_side {background-color: #f2f2f2f2;}
+
+article {
+	padding: 20px;
+	flex-grow: 2;
+	background-color: #ebe9ec;
+}
+	 
+header nav a{  
+	color: #ebe9ec;;  
+	text-decoration: none;   
+	display: inline-block;   
+	padding: 10px 20px; 
+} 
+
+.left{
+	float: left;
+}
+
+.image {
+	transform: rotate(90deg);
+	padding-top: 10%;
+}
+
+.img2 {
+	width: auto;
+	height: 10rem;
+}
+
+
+.a {
+	width: 50%;
+}
+
+.b{
+	width: 50%;
+}
+
+.c {
+	width: 50%;
+}
+
+footer{  
+	background-color: #47156C;   
+	color: white;  
+	text-align: left; 
+} 
+	
+footer a{ color:#47156C; } 
+@media screen and (max-width: 768px) {
+	main {
+		flex-direction: column;
+	}
+	aside {
+		flex-basis: auto;
+	}
+	.first_side{
+		order: 2;
+	}
+	.second_side {
+		order: 1;
+	}
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    padding: 15px;
+    background-color: #ebe9ec;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-horizontal {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ebe9ec;
+    padding: 10px;
+}
+
+.card-horizontal img {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.card-content {
+    flex-grow: 1;
+}
+
+.card-content p {
+    margin: 5px 0;
+    color: #234766;
+}
+
+
+  .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Jarak antara kartu */
+    align-items: flex-start; /* Atur teks di bagian atas kartu */
+}
+
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.img2 {
+    margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+
+.card-content {
+    flex: 1;
+}
+.center-text {
+    text-align: center; /* Untuk mengatur teks ke tengah secara horizontal */
+}
+
+.center-text {
+    text-align: center; /* Untuk mengatur teks ke tengah secara horizontal */
+}
+/* Gaya untuk tombol Daftar Sekarang */
+.btn-daftar {
+    background-color: #2079CC; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 10px 20px; /* Padding (jika diperlukan) */
+    border: none; /* Hapus border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Pusatkan teks */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animasi perubahan warna */
+}
+
+/* Gaya saat kursor diarahkan ke tombol */
+.btn-daftar:hover {
+    background-color: #14568F; /* Ubah warna latar belakang saat dihover */
+}
+
+.card-container {
+  display: flex;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 60px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Atur jarak antara menu dan hamburger */
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px; /* Sesuaikan tinggi hamburger dengan kebutuhan */
+    cursor: pointer;
+}
+
+.bar {
+    width: 24px; /* Sesuaikan lebar bar dengan kebutuhan */
+    height: 2px; /* Sesuaikan tinggi bar dengan kebutuhan */
+    background-color: #ebe9ec; /* Sesuaikan warna dengan kebutuhan */
+    transition: transform 0.3s ease; /* Efek transisi animasi */
+}
+
+/* Untuk mengatur tampilan saat hamburger di-klik atau di-hover */
+.hamburger-menu.active .bar:nth-child(1) {
+    transform: translateY(6px) rotate(45deg);
+}
+
+.hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.active .bar:nth-child(3) {
+    transform: translateY(-6px) rotate(-45deg);
+}
+
+  
+  
+
